@@ -8,6 +8,9 @@ body{
     justify-content: center;
     background: #eeeeee;
 }
+h1{
+    margin: 0 0 1rem 0;
+}
 main{
     display: flex;
     gap: 1rem;
@@ -20,6 +23,8 @@ main{
     flex-direction: column;
     gap: 2px;
     background: #616161;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .drop-each-line{
     display: flex;
