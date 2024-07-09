@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeeee;
+}
+main{
+    display: flex;
+    gap: 1rem;
+    background: white;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.drop-outer-box{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    background: #616161;
+}
+.drop-each-line{
+    display: flex;
+    gap: 2px;
+}
+.drop{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    background: black;
+}
+.each-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.each-input label{
+    margin-bottom: 0.3rem;
+}
+
+@media only screen and (max-width: 700px) {
+    main{
+        flex-direction: column;
+        padding: 2rem 1rem;
+        border-radius: 5px;
+    }
+    .drop{
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+}
